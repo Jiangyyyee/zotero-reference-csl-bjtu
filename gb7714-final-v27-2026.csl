@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<style xmlns="http://purl.org/net/xbiblio/csl" version="1.0" class="in-text" name-as-sort-order="all" sort-separator=" " demote-non-dropping-particle="never" initialize-with=" " initialize-with-hyphen="false" page-range-format="expanded">
+  <info>
+    <title>GB/T 7714 Final V27 (Robust Punctuation)</title>
+    <id>http://www.zotero.org/styles/gb7714-final-v27-2026</id>
+    <link href="http://www.zotero.org/styles/gb7714-final-v27-2026" rel="self"/>
+    <author><name>Gemini Edit</name></author>
+    <updated>2026-03-07T23:55:00+00:00</updated>
+  </info>
+
+  <locale xml:lang="zh-CN">
+    <terms><term name="et-al">等</term><term name="page-range-delimiter">-</term></terms>
+  </locale>
+  <locale xml:lang="en">
+    <terms><term name="et-al">et al</term><term name="page-range-delimiter">-</term></terms>
+  </locale>
+
+  <macro name="author">
+    <names variable="author">
+      <name name-part="family" text-case="uppercase" delimiter-precedes-last="always" delimiter=", "/>
+      <et-al term="et-al" prefix=", "/>
+    </names>
+  </macro>
+
+  <macro name="title">
+    <group delimiter="">
+      <text variable="title"/>
+      <choose>
+        <if type="book"><text value="[M]."/></if>
+        <if type="article-journal"><text value="[J]."/></if>
+        <if type="paper-conference"><text value="[C]."/></if>
+        <if type="thesis"><text value="[D]."/></if>
+        <if type="patent"><text value="[P]."/></if>
+        <else><text value="[Z]."/></else>
+      </choose>
+    </group>
+  </macro>
+
+  <macro name="layout-main">
+    <group delimiter=". ">
+      <text macro="author"/>
+      <choose>
+        <if type="article-journal article-magazine" match="any">
+          <text macro="title"/>
+          <group delimiter="">
+            <text variable="container-title" suffix=", "/>
+            <date variable="issued" date-parts="year" form="numeric" suffix=", "/>
+            <text variable="volume"/>
+            <choose>
+              <if variable="issue">
+                <text variable="issue" prefix="(" suffix="): "/>
+              </if>
+              <else>
+                <text value=": "/>
+              </else>
+            </choose>
+            <text variable="page"/>
+          </group>
+        </if>
+        
+        <else-if type="paper-conference">
+          <group delimiter="//">
+            <text macro="title"/>
+            <group delimiter="">
+              <names variable="editor" suffix=". "/>
+              <group suffix="，">
+                <text variable="container-title"/>
+                <text variable="event-place" prefix=","/>
+              </group>
+              <group suffix=",">
+                <date variable="issued" form="numeric"/>
+              </group>
+              <group suffix="，">
+                <text variable="publisher-place" suffix=": "/>
+                <text variable="publisher"/>
+              </group>
+              <date variable="issued" date-parts="year" form="numeric"/>
+              <text variable="page" prefix="."/>
+            </group>
+          </group>
+        </else-if>
+        <else>
+          <text macro="title"/>
+          <group delimiter=", ">
+            <text variable="publisher" prefix=" "/>
+            <date variable="issued" date-parts="year" form="numeric"/>
+          </group>
+          <text variable="page" prefix=" "/>
+        </else>
+      </choose>
+    </group>
+  </macro>
+
+  <citation collapse="citation-number">
+    <layout vertical-align="sup" delimiter="," prefix="[" suffix="]"><text variable="citation-number"/></layout>
+  </citation>
+
+  <bibliography entry-spacing="0" line-spacing="1" hanging-indent="false" et-al-min="4" et-al-use-first="3">
+    <layout suffix="." locale="en">
+      <text variable="citation-number" prefix="[" suffix="]"/>
+      <text macro="layout-main"/>
+    </layout>
+    <layout suffix=".">
+      <text variable="citation-number" prefix="[" suffix="]"/>
+      <text macro="layout-main"/>
+    </layout>
+  </bibliography>
+</style>
