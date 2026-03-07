@@ -38,18 +38,13 @@
   <img width="308" height="725" alt="image" src="https://github.com/user-attachments/assets/51151332-e176-46c8-ba5c-7a5a06c5fb3d" />
   
    按照下述图片修改样式：
-   
-    <img width="636" height="648" alt="image" src="https://github.com/user-attachments/assets/7215e7eb-4f12-4674-b1c9-b0c6d13a49fe" />
     
   1）格式/字体：
-  
     <img width="653" height="642" alt="image" src="https://github.com/user-attachments/assets/60e0838b-4350-4edd-a95b-d3142d44e87b" />
     
   2）格式/段落/缩进与间距
-  
     <img width="560" height="660" alt="image" src="https://github.com/user-attachments/assets/4bb6af1d-f19a-4700-b593-7d2ed1709c01" />  
     
   3）格式/段落/中文板式
-  
     <img width="569" height="661" alt="image" src="https://github.com/user-attachments/assets/95ea6bcc-918f-4832-ac39-0ba824ffeaa7" />
 
