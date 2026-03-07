@@ -1,4 +1,5 @@
 # reference-cis-bjtu
+解决插入文献后，参考文献条目部分格式刷新为默认格式的问题，将zotero插入条目绑定的“书目”样式修改为目标样式。
 
 ## 参考文献条目要求
 著作：[序号]作者.译者.书名[M].版本(第一版不著录).出版地:出版社,出版时间:引用部分起止页.
@@ -33,17 +34,22 @@
   <img width="576" height="706" alt="image" src="https://github.com/user-attachments/assets/b3f0baaa-53a1-488f-a5ac-59417deb3188" />
   
 3. zotero的Add Bibliography默认绑定的是Word的“书目”样式，只需要更改“书目”的样式，就可以以要求的格式插入条目
+
   <img width="308" height="725" alt="image" src="https://github.com/user-attachments/assets/51151332-e176-46c8-ba5c-7a5a06c5fb3d" />
   
    按照下述图片修改样式：
+   
     <img width="636" height="648" alt="image" src="https://github.com/user-attachments/assets/7215e7eb-4f12-4674-b1c9-b0c6d13a49fe" />
     
   1）格式/字体：
+  
     <img width="653" height="642" alt="image" src="https://github.com/user-attachments/assets/60e0838b-4350-4edd-a95b-d3142d44e87b" />
     
   2）格式/段落/缩进与间距
+  
     <img width="560" height="660" alt="image" src="https://github.com/user-attachments/assets/4bb6af1d-f19a-4700-b593-7d2ed1709c01" />  
     
   3）格式/段落/中文板式
+  
     <img width="569" height="661" alt="image" src="https://github.com/user-attachments/assets/95ea6bcc-918f-4832-ac39-0ba824ffeaa7" />
 
