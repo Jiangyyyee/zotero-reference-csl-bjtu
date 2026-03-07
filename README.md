@@ -23,6 +23,7 @@
 <img width="332" height="748" alt="image" src="https://github.com/user-attachments/assets/adc098bc-2719-4a51-be2d-51ab65aa048c" />
 
 **其中“地点”字段表示的是出版地点（一般是出版社的地点），“Event Place”字段表示的是会议地点**
+
 4. 引用格式示例
 <img width="947" height="722" alt="image" src="https://github.com/user-attachments/assets/32df4f2a-18cc-4b2a-9bb8-4e149c886f7a" />
 
