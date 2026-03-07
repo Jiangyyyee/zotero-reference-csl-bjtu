@@ -1,4 +1,4 @@
-# reference-cis-bjtu
+# reference-csl-bjtu
 解决插入文献后，参考文献条目部分格式刷新为默认格式的问题，将zotero插入条目绑定的“书目”样式修改为目标样式。
 
 ## 参考文献条目要求
