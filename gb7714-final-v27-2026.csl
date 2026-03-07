@@ -31,6 +31,7 @@
         <if type="paper-conference"><text value="[C]."/></if>
         <if type="thesis"><text value="[D]."/></if>
         <if type="patent"><text value="[P]."/></if>
+        <if type="article report webpage post-weblog" match="any"><text value="[A]."/></if>
         <else><text value="[Z]."/></else>
       </choose>
     </group>
