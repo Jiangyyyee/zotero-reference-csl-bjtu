@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
-<style xmlns="http://purl.org/net/xbiblio/csl" version="1.0" class="in-text" name-as-sort-order="all" sort-separator=" " demote-non-dropping-particle="never" initialize-with=" " initialize-with-hyphen="false" page-range-format="expanded">
+<style xmlns="http://purl.org/net/xbiblio/csl" version="1.0" class="in-text" name-as-sort-order="all" sort-separator=" " demote-non-dropping-particle="never" page-range-format="expanded">
   <info>
-    <title>GB/T 7714 Final V27 (Robust Punctuation)</title>
-    <id>http://www.zotero.org/styles/gb7714-final-v27-2026</id>
-    <link href="http://www.zotero.org/styles/gb7714-final-v27-2026" rel="self"/>
-    <author><name>Gemini Edit</name></author>
+    <title>GB/T 7714 Final</title>
+    <id>http://www.zotero.org/styles/gb7714-final-2026</id>
+    <link href="http://www.zotero.org/styles/gb7714-final-2026" rel="self"/>
+    <author><name>zzz</name></author>
     <updated>2026-03-07T23:55:00+00:00</updated>
   </info>
 
